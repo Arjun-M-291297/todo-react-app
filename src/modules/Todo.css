@@ -1,0 +1,71 @@
+.app-container{
+    text-align: center;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+
+.todo-head{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+}
+.input-container{
+    width: 60%;
+    display: inline-flex;
+    margin-top: 5rem;
+    align-items: center;
+}
+
+.input-container input{
+    margin-right: 1rem;
+    border:1.5px solid #4299e1;
+    color: white;
+}
+
+.chakra-stack span{
+    display: flex;
+    justify-content: space-between;
+    overflow-wrap: anywhere;
+    align-items: center;
+}
+
+.input-container button{
+    background-color: rgb(230, 230, 61) !important; 
+    border: none;
+    color: black;
+    font-size: 32px;
+    cursor: pointer;
+    border-radius: 1px;
+    border: 1.5px solid white;
+    display: flex;
+    align-items: flex-end;
+  }
+
+.strike{
+    text-decoration: line-through;
+}
+
+.chakra-card{
+    height: 50vh;
+    overflow-y: scroll;
+    background: #f6f6f6 !important;
+}
+
+.checkbox{
+    margin: 0 .5rem;
+}
+
+
+@media screen and (max-width:600px) {
+    .chakra-tabs__tablist {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    
+}
